@@ -19,9 +19,9 @@ int main() {
     std::cout << "\nRound Robin Scheduling with Quantum 3:" << std::endl;
     scheduler.roundRobin(3);
 
-    // Uncomment when multilevelQueue implementation is ready
-    // std::cout << "\nMultilevel Queue Scheduling:" << std::endl;
-    // scheduler.multilevelQueue();
+    Uncomment when multilevelQueue implementation is ready
+    std::cout << "\nMultilevel Queue Scheduling:" << std::endl;
+    scheduler.multilevelQueue();
 
     return 0;
 }
